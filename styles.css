@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('pexels-asadphoto-1287460.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffdd57;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ffc107;
+}
+
+/* Destinations Section */
+.destinations {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.destinations h2 {
+    font-size: 2em;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.destination-card {
+    display: flex;
+    background: white;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.destination-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.destination-info h3 {
+    color: #0077b6;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+/* Footer Styling */
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
